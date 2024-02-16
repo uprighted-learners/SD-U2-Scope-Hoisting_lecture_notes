@@ -64,7 +64,7 @@ letTest();
 //* CONST
 function constTest() {
     const scope = 1;
-
+    // const scope = 3;
     if (true) {
         const scope = 2;
         // console.log(scope);
@@ -84,3 +84,12 @@ constTest();
                 - Variables are assigned.
                 - Executes any hoisted code.
 */
+
+// console.log(name); // ERROR - value isn't assigned until the 2nd pass.
+let name = "Bob"; // Value of "name" doesn't get hoisted
+
+b();
+
+function b() {
+    console.log("I have been hoisted")
+}

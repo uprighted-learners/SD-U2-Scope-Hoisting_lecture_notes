@@ -11,7 +11,7 @@ There are two different branches associated with this lesson.
 - Hoisting
 
 ### What Should Already Be Understood
-- Nodemon
+- Node
 - Variables & the Console 
 - Data Types & Operators
 - Conditionals & Loops
